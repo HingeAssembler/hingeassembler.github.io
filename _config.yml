@@ -1,1 +1,26 @@
-theme: jekyll-theme-tactile
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            HINGE
+tagline:          'A genome assembler'
+description:      'A genome assembler attempting to assemble all that can be assembled but nothing more'
+url:              http://HingeAssembler.github.io
+baseurl:          /
+
+author:
+  name:           'The HINGE Team'
+  url:            http://HingeAssembler.github.io
+
+paginate:         5
+
+# Custom vars
+version:          0.4
+
+github:
+  repo:
