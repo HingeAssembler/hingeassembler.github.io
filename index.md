@@ -6,11 +6,11 @@ title: 'The HINGE Assembler'
 # HINGE  
 Software accompanying  "HINGE: Long-Read Assembly Achieves Optimal Repeat Resolution"
 
-- Preprint: http://biorxiv.org/content/early/2016/08/01/062117
+- [Preprint](http://biorxiv.org/content/early/2017/03/16/062117)
 
-- Paper: http://genome.cshlp.org/content/early/2017/03/20/gr.216465.116.abstract
+- [Paper](http://genome.cshlp.org/content/early/2017/03/20/gr.216465.116.abstract)
 
-- Software: https://github.com/HingeAssembler/HINGE
+- [Software](https://github.com/HingeAssembler/HINGE)
 
 - An ipython notebook to reproduce results in the paper can be found in this [repository](https://github.com/govinda-kamath/HINGE-analyses).
 
