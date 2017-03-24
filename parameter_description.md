@@ -54,7 +54,7 @@ All the parameters below can be set using the .ini file read by the HINGE progra
 // When filtering hinges (so that only one in-hinge and one out-hinge are left for each reapeat), we kill an in-hinge (out-hinge) if there is a forward (backward) extension read that starts at least kill_hinge_overlap before (after) the hinge,
 or if there is a forward_internal (backward_internal) extension read that starts at most kill_hinge_internal after (before) the hinge, as illustrated below.
 
-<img src="misc/param_description1.png" width=600px/>
+<img src="assets/param_description1.png" width=600px/>
 
 - num_events_telomere = 7;
 - del_telomeres = 0; // If set to 1, any read with more than num_events_telomere repeat annotations will be classified as a telomere read and will be deleted.

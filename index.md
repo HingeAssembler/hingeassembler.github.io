@@ -56,7 +56,7 @@ It can be analyzed and visualized, etc.
 
 ## Parameters
 
-In the pipeline described above, several programs load their parameters from a configuration file in the ini format.  All tunable parameters are described in [this document]({{site.url}}/parameter_description/).
+In the pipeline described above, several programs load their parameters from a configuration file in the ini format.  All tunable parameters are described in [this document](/parameter_description/).
 
 
 # Installation
