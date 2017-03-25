@@ -1,0 +1,15 @@
+{% assign radius=include.size %}
+{% assign person = site.people[include.index] %}
+{% if include.radius %}
+	{% assign radius = include.radius %}
+{% endif %}
+<li class="monogram" style="display: inline-block; margin: 0;">
+	<a href="{{ person.webpage }}">
+	<div class="portrait-thumbnail" style="width: 60px;
+	height: 60px;">
+	<img class="portrait-thumbnail" style="width: 60px;
+	height: 60px; object-fit: cover;" src="{{ person.picture }}"/>
+</div>
+	<div style="line-height:1;text-align:center;">{{ person.inits }}</div>
+	</a>
+</li>
