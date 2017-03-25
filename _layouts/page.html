@@ -4,5 +4,11 @@ layout: default
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
+  {% include author_list_start.html %}
+  {% for person in site.people %}
+
+    {% include author_list_item.html index=forloop.index size=40 inits="yes" %}
+  {% endfor %}
+  {% include author_list_stop.html %}
   {{ content }}
 </div>
