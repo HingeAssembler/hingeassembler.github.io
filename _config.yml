@@ -11,7 +11,7 @@ title:            'HINGE'
 tagline:          'A genome assembler'
 description:      'A genome assembler attempting to assemble all that can be assembled but nothing more'
 url:              http://HingeAssembler.github.io
-baseurl:          /
+baseurl:          
 
 author:
   name:           'The HINGE Team'
